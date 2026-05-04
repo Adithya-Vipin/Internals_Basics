@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/forecast",
+  "port": 9000,
+  "health_response": {
+    "status": "operational",
+    "service": "CoinPulse API"
+  },
+  "test_input": {
+    "network_congestion": 0.6,
+    "txn_size_bytes": 1078,
+    "is_priority": 1,
+    "block_fullness_pct": 75.9
+  },
+  "prediction": 95.1087
+}
