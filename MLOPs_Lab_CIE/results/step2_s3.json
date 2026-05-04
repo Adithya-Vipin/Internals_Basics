@@ -1,0 +1,12 @@
+{
+  "image_name": "coinpulse-predictor",
+  "image_tag": "v1",
+  "base_image": "python:3.12-slim",
+  "test_input": {
+    "network_congestion": 0.6,
+    "txn_size_bytes": 1078,
+    "is_priority": 1,
+    "block_fullness_pct": 75.9
+  },
+  "prediction": 95.1087
+}
