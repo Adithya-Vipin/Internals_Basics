@@ -1,0 +1,18 @@
+{
+  "experiment_name": "coinpulse-gas-fee-gwei",
+  "models": [
+    {
+      "name": "Lasso",
+      "mae": 12.7012,
+      "rmse": 15.4547
+    },
+    {
+      "name": "GradientBoosting",
+      "mae": 16.8365,
+      "rmse": 22.1934
+    }
+  ],
+  "best_model": "Lasso",
+  "best_metric_name": "rmse",
+  "best_metric_value": 15.4547
+}
